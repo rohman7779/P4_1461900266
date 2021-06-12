@@ -20,13 +20,13 @@
 		<tbody>
 		<?php $no=1; ?>
 		@foreach ($buku as $s)
-		<tr>
-			<td>{{$no++}}</td>
-			<td>{{$s->judul}}</td>
-			<td>{{$s->tahun_terbit}}</td>
-			<td>{{$s->jenis}}</td>
-			<td></td>
-		</tr>
+                    <tr>
+                        <td>{{$no++}}</td>
+                        <td>{{$s->judul}}</td>
+                        <td>{{$s->tahun_terbit}}</td>
+                        <td>{{$s->jenis}}</td>
+                        <td></td>
+                    </tr>
 		@endforeach
 		</tbody>
         
